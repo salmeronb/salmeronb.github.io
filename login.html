@@ -125,7 +125,7 @@
 <body>
     <div class="login-container">
         <div class="login-icon">🐕 ⛺ 🐕</div>
-        <h1>Sarah & John</h1>
+        <h1>Gabriel & Bonita</h1>
         <p class="tagline">Are getting married!</p>
         
         <form class="login-form" onsubmit="return checkPassword(event)">
@@ -149,7 +149,7 @@
             const error = document.getElementById('error');
             
             // Regular guest password
-            if (password === 'wedding2025') {
+            if (password === 'wedding2027') {
                 // Store access level and redirect
                 sessionStorage.setItem('accessLevel', 'guest');
                 window.location.href = 'index.html';
@@ -157,7 +157,7 @@
             }
             
             // Camper password (shows everything)
-            if (password === 'campers2025') {
+            if (password === 'campers2027') {
                 // Store access level and redirect
                 sessionStorage.setItem('accessLevel', 'camper');
                 window.location.href = 'index.html';
