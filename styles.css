@@ -649,6 +649,136 @@ footer p {
     margin-bottom: 1rem;
 }
 
+/* Campers Section */
+.campers {
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, #2d5a27 0%, #1a3d18 100%);
+    color: white;
+}
+
+.campers h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.campers-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #b8d4b8;
+    margin-bottom: 2rem;
+}
+
+.camper-alert {
+    background: linear-gradient(135deg, #5d8aa8 0%, #4a7a9a 100%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.2rem;
+}
+
+.camper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.camper-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.camper-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.camper-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #b8d4b8;
+}
+
+.camper-card p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.camper-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.camper-list li {
+    padding: 0.3rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.camper-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #87a878;
+}
+
+.camper-contact {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camper-contact h3 {
+    color: #b8d4b8;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.camper-rsvp {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.camper-rsvp h3 {
+    color: #b8d4b8;
+    margin-bottom: 0.5rem;
+}
+
+.camper-rsvp p {
+    margin-bottom: 1rem;
+}
+
+.camper-rsvp .btn {
+    background: white;
+    color: #2d5a27;
+}
+
+.camper-rsvp .btn:hover {
+    background: #b8d4b8;
+}
+
+/* Hide camper-only elements by default (JS will show them) */
+.camper-only {
+    display: none;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content h1 {
